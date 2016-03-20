@@ -86,7 +86,7 @@ footer{ width: 100%; background: #32363e;}
 .contactWrap p{ font-size: 12px; line-height: 20px;}
 
 .contanctSumit{ margin: 30px 0;}
-.contanctSumit input{width: 430px; height: 40px;background: #fff;text-indent: 15px; font-size: 14px;color: #fff; border: 0; }
+.contanctSumit input{width: 430px; height: 40px;background: #fff;text-indent: 15px; font-size: 14px;color: #333; border: 0; }
 .contanctSumit button{width: 80px; height: 40px;background: #707278;text-align:center; font-size: 15px;color: #fff; border: 0; cursor: pointer; }
 .contanctSumit button:hover{background: #5c5e62; }
 .contactWrap .friend_links span{width: 30px; cursor: pointer; height:30px; display: inline-block; background: url("../images/linkchat.png")  no-repeat center top;  background-size: cover;      }
