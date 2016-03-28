@@ -76,11 +76,18 @@
             resortUl.appendChild(resortLi);
         }
     }
-
+    var run=false;
     function btnHandle() {
-        var aqiData = getData();
-        aqiData = sortAqiData(aqiData);
-        render(aqiData);
+        if(run){
+          alert("已经排序完成");
+          return ;
+        }else{
+            var aqiData = getData();
+            aqiData = sortAqiData(aqiData);
+            render(aqiData);
+            run=true;
+        }
+
     }
 
 
