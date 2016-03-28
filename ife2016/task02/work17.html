@@ -3,7 +3,22 @@
 <head>
     <meta charset="utf-8">
     <title>IFE JavaScript work17</title>
-    <script src="work17.js"></script>
+
+    <style>
+        fieldset{  margin: 0 auto;  width: 1000px;  }
+        .aqi-chart-wrap{
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            bottom: 50px;
+            text-align: center;
+            width: 1200px;
+        }
+        .aqi-chart-wrap>div{
+            margin-right: 3px;
+            display: inline-block;
+        }
+    </style>
 </head>
 <body>
 <fieldset id="form-gra-time">
@@ -18,7 +33,9 @@
     <select id="city-select">
     </select>
 </fieldset>
-<div class="aqi-chart-wrap">
+<div class="aqi-chart-wrap"  id='chart-wrap'>
+
 </div>
+<script src="work17.js"></script>
 </body>
 </html>

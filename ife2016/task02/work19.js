@@ -2,10 +2,12 @@
     /*
      * getElementById简写
      */
+
     function $(id, doc) {
         doc = doc || document;
         return (id.charAt(0) === '#' ? doc.getElementById(id.substr(1)) : doc.getElementsByTagName(id));
     };
+    documen.getElementById()
     /*
      * 原形扩展的方式去除字符串两头空格及中间空白
      */
